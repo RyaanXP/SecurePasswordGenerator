@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generatore di Password Sicure</title>
+</head>
+<body>
+    <h1>Generatore di Password Sicure</h1>
+    <button id="startButton">Genera Password</button>
+    <p id="passwordDisplay"></p>
+
+    <script>
+        document.getElementById("startButton").addEventListener("click", function() {
+            // Qui inserisci il tuo script per generare password sicure
+            var password = generateSecurePassword();
+            document.getElementById("passwordDisplay").textContent = "Password Sicura: " + password;
+        });
+
+        function generateSecurePassword() {
+            // Inserisci qui il tuo script per generare password sicure
+            // Ad esempio, puoi utilizzare una libreria come "crypto" per generare una password casuale.
+            // Esempio: https://github.com/davidshimjs/qrcodejs
+            // Includi la libreria nel tuo HTML e utilizzala per generare la password.
+        }
+    </script>
+</body>
+</html>
